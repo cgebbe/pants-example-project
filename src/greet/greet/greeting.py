@@ -8,7 +8,7 @@ import random
 
 import pkg_resources
 
-from helloworld.translator.translator import LanguageTranslator
+from translator.translator import LanguageTranslator
 
 
 class Greeter:
