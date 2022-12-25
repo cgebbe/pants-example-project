@@ -27,6 +27,11 @@ remote_auth_plugin = "toolchain.pants.auth.plugin:toolchain_auth_plugin"
 # End Toolchain-specific configuration
 
 
+pants_ignore = [
+    "venv/"
+]
+
+
 [anonymous-telemetry]
 enabled = true
 repo_id = "3B1D361B-E9F1-49A8-B761-03DCC41FD58E"
